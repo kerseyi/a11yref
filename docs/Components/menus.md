@@ -237,7 +237,7 @@ nav_order: 1
   </div>
 </div>
 </div>
-'<div class="demo-block">
+<pre><code><div class="demo-block">
   <!-- Accordion Configuration Options
 
   data-allow-toggle
@@ -462,4 +462,4 @@ nav_order: 1
       </div>
     </div>
   </div>
-</div>'
+</div></pre></code>
