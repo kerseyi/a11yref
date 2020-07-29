@@ -10,7 +10,6 @@ nav_order: 1
 ## Accordion Menu
 
 <div class="code-example">
-<code>
 <div class="demo-block">
   <!-- Accordion Configuration Options
 
@@ -237,5 +236,4 @@ nav_order: 1
     </div>
   </div>
 </div>
-</code>
 </div>
