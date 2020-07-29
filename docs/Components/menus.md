@@ -239,7 +239,7 @@ nav_order: 1
 </div>
 
 ## HTML
-<details open>
+<details open markdown="block">
 <summary>
 {% highlight html %}
 <div class="demo-block">
