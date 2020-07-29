@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: A11yref
 description: A11y code patterns, references, and educational resources
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://a11yref.tech" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/home" # the subpath of your site, e.g. /blog
+url: "http://a11yref.tech" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
