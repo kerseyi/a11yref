@@ -239,7 +239,8 @@ nav_order: 1
 </div>
 
 ## HTML
-<pre><code class="html"><div class="demo-block">
+{% highlight html %}
+<div class="demo-block">
   <!-- Accordion Configuration Options
 
   data-allow-toggle
@@ -464,4 +465,4 @@ nav_order: 1
       </div>
     </div>
   </div>
-</pre></code>
+{% endhighlight %}
