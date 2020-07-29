@@ -239,6 +239,8 @@ nav_order: 1
 </div>
 
 ## HTML
+<details open>
+<summary>
 {% highlight html %}
 <div class="demo-block">
   <!-- Accordion Configuration Options
@@ -466,3 +468,5 @@ nav_order: 1
     </div>
   </div>
 {% endhighlight %}
+</summary>
+</details>
