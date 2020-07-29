@@ -5,7 +5,7 @@
 *   Simple accordion pattern example
 */
 
-'use strict';
+document.addEventListener('DOMContentLoaded', function(event) {
 
 Array.prototype.slice.call(document.querySelectorAll('.Accordion')).forEach(function (accordion) {
 
@@ -132,3 +132,5 @@ Array.prototype.slice.call(document.querySelectorAll('.Accordion')).forEach(func
   }
 
 });
+
+})
