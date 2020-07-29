@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: A11yref
 description: A11y code patterns, references, and educational resources
-baseurl: "/home" # the subpath of your site, e.g. /blog
+baseurl: "/a11yref" # the subpath of your site, e.g. /blog
 url: "http://a11yref.tech" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
@@ -57,10 +57,10 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Who made this?":
-    - "//iankersey.art"
+    - "//github.com/kerseyi"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: true
+aux_links_new_tab: false
 
 # Sort order for navigation links
 nav_sort: case_insensitive # default, equivalent to nil
@@ -84,12 +84,12 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/kerseyi/just-the-docs.git" # the github URL for your repo
+gh_edit_repository: "https://github.com/kerseyi/a11yref" # the github URL for your repo
 gh_edit_branch: "master" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: "dark"
+color_scheme: nil
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
