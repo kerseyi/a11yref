@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Color
-parent: Reference
+parent: reference
 nav_order: 1
 ---
 # Color
