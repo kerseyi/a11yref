@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Accordion
+title: Collapsible Regions
 parent: Menus
+grand_parent: Components
 nav_order: 1
 ---
 
