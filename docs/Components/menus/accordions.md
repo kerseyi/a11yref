@@ -1,13 +1,11 @@
 ---
 layout: default
-title: Menus
-parent: Components
+title: Accordion
+parent: Menus
 nav_order: 1
 ---
 
-# Menus
-
-## Accordion Menu
+## Accordion Menus
 
 <div class="code-example">
 <div class="demo-block">
