@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 <div class="code-example">
 <div class="demo-block">
   <!-- Accordion Configuration Options
