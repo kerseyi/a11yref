@@ -17,7 +17,7 @@ Accordion menus are everywhere we look on the web. With such ubiquity, you'd exp
 
 ## OMG, There's A Native HTML Accordion?
 
-Yeah, well, kind of! It's called the HTML Details Element.
+Yeah, well, kind of! It's called the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details">HTML Details Element.</a>
 <div class="code-example">
 <details>
   <summary>OOOH, WHAT'S IN THERE?</summary>
