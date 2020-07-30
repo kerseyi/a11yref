@@ -39,7 +39,6 @@ Pretty cool, right? Thought so. As of July 2020, it's accessible out of the box 
 
 The DETAILS element supports the TOGGLE event, so adding more functionality to it is pretty straightforward.
 {% highlight js %}
-<div class="code-example">
 details.addEventListener("toggle", event => {
   if (details.open) {
     /* the element was toggled open */
@@ -47,7 +46,6 @@ details.addEventListener("toggle", event => {
       /* the element was toggled closed */
     }
     });
-</div>
 {% endhighlight %}
 
 
