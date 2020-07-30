@@ -6,7 +6,7 @@ grand_parent: Components
 nav_order: 1
 accordion:
   - title: HTML
-    content: accordion_1.md
+    content: accordions/accordion_1.md
 ---
 
 # Accordion Menus
@@ -35,7 +35,20 @@ Yeah, well, kind of! It's called the <a href="https://developer.mozilla.org/en-U
 </div>
 {% endhighlight %}
 
-Pretty cool, right? Thought so. It's not totally accessible out of the box, so we'll have to modify it a bit to make it a11y friendly. Luckily, the '''<details>''' element supports the 'toggle' event, so we can hook into that.
+Pretty cool, right? Thought so. As of July 2020, it's accessible out of the box -- although I did notice in my testing that the "expanded" and "collapsed" states are not toggled when there is no SUMMARY element nested in the DETIALS element.
+
+The DETAILS element supports the TOGGLE event, so adding more functionality to it is pretty straightforward.
+{% highlight js %}
+<div class="code-example">
+details.addEventListener("toggle", event => {
+  if (details.open) {
+    /* the element was toggled open */
+    } else {
+      /* the element was toggled closed */
+    }
+    });
+</div>
+{% endhighlight %}
 
 
 <div class="code-example">
