@@ -81,7 +81,7 @@ a:not([class]) {
 
 code {
   font-family: $mono-font-family;
-  font-size: 1.2em;
+  font-size: inherit;
   line-height: $body-line-height;
 }
 
