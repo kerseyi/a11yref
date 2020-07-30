@@ -8,7 +8,7 @@ accordion:
   - title: Example 1
     content: accordion_1.md
   - title: Example 2
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    content: accordion_1.md
 ---
 
 ## Accordion Menus
