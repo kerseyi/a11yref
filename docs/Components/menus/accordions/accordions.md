@@ -1,20 +1,6 @@
 ---
 layout: default
-title: Collapsible Regions
-parent: Menus
-grand_parent: Components
-nav_order: 1
-accordion:
-  - title: Example 1
-    content: "/docs/Components/menus/accordions/accordions.md"
-  - title: Example 2
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
-
-## Accordion Menus
-
-
-{% include accordion.html %}
 <div class="code-example">
 <div class="demo-block">
   <!-- Accordion Configuration Options
