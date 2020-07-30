@@ -13,7 +13,7 @@ accordion:
 
 ## Accordion Menus
 
-{% include accordion.html %}
+
 <div class="code-example">
 <div class="demo-block">
   <!-- Accordion Configuration Options
@@ -244,8 +244,7 @@ accordion:
 </div>
 
 ## HTML
-<details open markdown="block">
-<summary>
+
 {% highlight html %}
 <div class="demo-block">
   <!-- Accordion Configuration Options
@@ -473,5 +472,3 @@ accordion:
     </div>
   </div>
 {% endhighlight %}
-</summary>
-</details>
