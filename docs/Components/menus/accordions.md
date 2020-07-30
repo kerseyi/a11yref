@@ -35,7 +35,7 @@ Yeah, well, kind of! It's called the HTML Details Element.
 </div>
 {% endhighlight %}
 
-Pretty cool, right? Thought so. It's not totally accessible out of the box, so we'll have to modify it a bit to make it a11y friendly. Luckily, the '<details>' element supports the 'toggle' event, so we can hook into that.
+Pretty cool, right? Thought so. It's not totally accessible out of the box, so we'll have to modify it a bit to make it a11y friendly. Luckily, the '''<details>''' element supports the 'toggle' event, so we can hook into that.
 
 
 <div class="code-example">
