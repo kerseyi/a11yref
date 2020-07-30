@@ -5,13 +5,37 @@ parent: Menus
 grand_parent: Components
 nav_order: 1
 accordion:
-  - title: Example 1
-    content: accordion_1.md
-  - title: Example 2
+  - title: HTML
     content: accordion_1.md
 ---
 
-## Accordion Menus
+# Accordion Menus
+
+Accordion menus are everywhere we look on the web. With such ubiquity, you'd expect that there would be a pretty well defined standard for constructing these components. Well, there's not. So when it comes to making accordion menus accessible, things can get tricky. While the functionality and HTML markup for accordions is pretty straightforward, some implementations are overly complex. Let's take a look at the intended functionality of an accordion menu before we look under the hood.
+
+
+
+##OMG, There's A Native HTML Accordion?
+
+Yeah, well, kind of! It's called the HTML Details Element.
+<div class="code-example">
+<details>
+  <summary>OOOH, WHAT'S IN THERE?</summary>
+  <p>IT'S A PUPPY!</p>
+  <img src="assets/images/this is fine.gif" />
+</details>
+</div>
+{% highlight html %}
+<div class="code-example">
+<details>
+  <summary>OOOH, WHAT'S IN THERE?</summary>
+  <p>IT'S A PUPPY!</p>
+  <img src="assets/images/this is fine.gif" />
+</details>
+</div>
+{% endhighlight %}
+
+Pretty cool, right? Thought so. It's not totally accessible out of the box, so we'll have to modify it a bit to make it a11y friendly. Luckily, the '<details>' element supports the 'toggle' event, so we can hook into that.
 
 
 <div class="code-example">
@@ -243,6 +267,7 @@ accordion:
 </div>
 </div>
 
+{% include accordion.html %}
 ## HTML
 
 {% highlight html %}
