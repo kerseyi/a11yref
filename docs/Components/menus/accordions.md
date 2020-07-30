@@ -6,7 +6,7 @@ grand_parent: Components
 nav_order: 1
 accordion:
   - title: Example 1
-    content: accordions/accordion_1.md
+    content: accordion_1.md
   - title: Example 2
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
