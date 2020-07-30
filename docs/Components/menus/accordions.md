@@ -4,7 +4,7 @@ title: Collapsible Regions
 parent: Menus
 grand_parent: Components
 nav_order: 1
-accordion_1: docs/Components/menus/accordions/accordion_1.md
+accordion_1: accordions/accordion_1.md
 accordion:
   - title: Example 1
     content: accordion_1
@@ -14,7 +14,6 @@ accordion:
 
 ## Accordion Menus
 
-{% include_relative docs/Components/menus/accordions/accordion_1.md %}
 {% include accordion.html %}
 <div class="code-example">
 <div class="demo-block">
