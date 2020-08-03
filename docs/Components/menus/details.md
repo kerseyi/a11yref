@@ -1,4 +1,3 @@
-### The HTML Details Element
 
 What's that? An HTML accordion you say? Yup! It's called the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details">HTML Details Element.</a>
 <details>

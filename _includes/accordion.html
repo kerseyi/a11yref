@@ -1,14 +1,16 @@
-<!-- <style>
-details.jekyllcodex_accordion {position: relative; margin: 1.4rem 0!important; border-bottom: 1px solid rgba(0,0,0,0.25); padding-bottom: 0;}
-details.jekyllcodex_accordion summary {border-top: 1px solid rgba(0,0,0,0.25); list-style: none; margin-left: 0;}
-details.jekyllcodex_accordion summary input {display: none;}
-details.jekyllcodex_accordion summary label {display: block; cursor: pointer; padding: 0.75rem 2.4rem 0.75rem 0; margin: 0;}
-details.jekyllcodex_accordion summary div {display: none; padding-bottom: 1.2rem;}
-details.jekyllcodex_accordion summary input:checked + label {font-weight: bold;}
-details.jekyllcodex_accordion summary input:checked + label + div {display: block;}
-details.jekyllcodex_accordion summary label::before {content: "+"; font-weight: normal; font-size: 130%; line-height: 1.1rem; padding: 0; position: absolute; right: 0.5rem; transition: all 0.15s ease-in-out;}
-details.jekyllcodex_accordion summary input:checked + label::before {transform: rotate(-45deg);}
-</style> -->
+<style>
+details.jekyllcodex_accordion {
+	border: 1px solid black; 
+	border-radius: 10px;
+	background: aliceblue;
+}
+
+details.jekyllcodex_accordion summary h3 {
+	padding: 10px;
+	font-weight: bold;
+	border-bottom: 2px solid black;
+}
+</style>
 <details class="jekyllcodex_accordion">
     {% for item in page.accordion %}
         <summary><h3>{{ item.title }}</h3></summary><div>{% capture my_include %}{% include_relative {{item.content}} %}{% endcapture %}{{ my_include | markdownify }}
