@@ -1,4 +1,3 @@
-
 <div class="code-example">
 <div class="demo-block">
   <!-- Accordion Configuration Options
@@ -228,9 +227,9 @@
 </div>
 </div>
 
+
 ## HTML
-<details open markdown="block">
-<summary>
+
 {% highlight html %}
 <div class="demo-block">
   <!-- Accordion Configuration Options
@@ -458,5 +457,3 @@
     </div>
   </div>
 {% endhighlight %}
-</summary>
-</details>
