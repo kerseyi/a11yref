@@ -8,12 +8,13 @@ details.jekyllcodex_accordion {
 details.jekyllcodex_accordion summary h3 {
 	padding: 10px;
 	font-weight: bold;
-	border-bottom: 2px solid black;
 }
 </style>
+{% for item in page.accordion %}
 <details class="jekyllcodex_accordion">
-    {% for item in page.accordion %}
+    
         <summary><h3>{{ item.title }}</h3></summary><div>{% capture my_include %}{% include_relative {{item.content}} %}{% endcapture %}{{ my_include | markdownify }}
 </div>
-    {% endfor %}
+    
 </details>
+{% endfor %}
