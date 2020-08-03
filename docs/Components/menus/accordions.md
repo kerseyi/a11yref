@@ -6,7 +6,7 @@ grand_parent: Components
 nav_order: 1
 accordion:
   - title: HTML Details Element
-    content: accordions/details.md
+    content: details.md
   - title: Pattern 1
     content: accordions/accordion_1.md
 ---
