@@ -1,4 +1,4 @@
-
+<div class="code-example">
 <div class="demo-block">
   <!-- Accordion Configuration Options
 
@@ -225,7 +225,7 @@
     </div>
   </div>
 </div>
-
+</div>
 
 
 ## HTML
