@@ -5,15 +5,11 @@ details.jekyllcodex_accordion {
 	background: aliceblue;
 }
 
-details.jekyllcodex_accordion summary h3 {
-	padding: 10px;
-	font-weight: bold;
-}
 </style>
 {% for item in page.accordion %}
 <details class="jekyllcodex_accordion">
     
-        <summary><h3>{{ item.title }}</h3></summary><div>{% capture my_include %}{% include_relative {{item.content}} %}{% endcapture %}{{ my_include | markdownify }}
+        <summary>{{ item.title }}</summary><div>{% capture my_include %}{% include_relative {{item.content}} %}{% endcapture %}{{ my_include | markdownify }}
 </div>
     
 </details>
