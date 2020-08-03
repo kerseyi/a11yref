@@ -52,10 +52,12 @@ The DETAILS element supports the TOGGLE event, so adding more functionality to i
 details.addEventListener("toggle", event => {
   if (details.open) {
     /* the element was toggled open */
+    //do awesome thing!
     } else {
       /* the element was toggled closed */
+      // undo awesome thing
     }
-    });
+  });
 {% endhighlight %}
 
 
