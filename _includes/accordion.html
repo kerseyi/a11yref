@@ -11,7 +11,7 @@ details.jekyllcodex_accordion summary input:checked + label::before {transform: 
 </style> -->
 <details class="jekyllcodex_accordion">
     {% for item in page.accordion %}
-        <summary><h3>{{ item.title }}</h3><div>{% capture my_include %}{% include_relative {{item.content}} %}{% endcapture %}{{ my_include | markdownify }}
-</div></summary>
+        <summary><h3>{{ item.title }}</h3></summary><div>{% capture my_include %}{% include_relative {{item.content}} %}{% endcapture %}{{ my_include | markdownify }}
+</div>
     {% endfor %}
 </details>
