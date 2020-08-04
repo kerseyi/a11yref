@@ -9,6 +9,7 @@ nav_order: 3
 
 # Menu Buttons
 
+Here is an example of the menu button being activated on the click event.
 <div class="code-example">
 <nav>
 	<button id="menu-btn-example"  aria-expanded="false" aria-haspopup="true">Press me!</button>
