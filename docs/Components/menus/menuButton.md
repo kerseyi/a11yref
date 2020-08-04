@@ -11,6 +11,8 @@ nav_order: 3
 
 Here is an example of the menu button being activated on the click event.
 
+## Example
+
 <nav>
 	<button id="menu-btn-example1" aria-expanded="false" aria-haspopup="true">Press me!</button>
 		<ul role="menu" class="menu-btn-example-ul" hidden>
@@ -25,6 +27,8 @@ Here is an example of the menu button being activated on the click event.
 		</li>
 	</ul>
 </nav>
+
+## Code Patterns
 
 {% highlight html %}
 <nav>
