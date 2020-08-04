@@ -133,4 +133,13 @@ Array.prototype.slice.call(document.querySelectorAll('.Accordion')).forEach(func
 
 });
 
+const menuButton = document.getElementById('menu-btn-example');
+
+menuButton.addEventListener('click', function(){
+  let expanded = this.getAttribute('aria-expanded') === 'true';
+  this.setAttribute('aria-expanded', !expanded);
+  let exampleMenu = this.nextElementSibling;
+  exampleMenu.hidden = !menu.hidden;
+})
+
 })

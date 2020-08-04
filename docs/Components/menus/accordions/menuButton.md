@@ -10,7 +10,8 @@ nav_order: 3
 # Menu Buttons
 
 <div class="code-example">
-	<button class="menu-btn-example"  aria-expanded="false">
+	<button id="menu-btn-example"  aria-expanded="false">
+		Press me!
 		<ul class="menu-btn-example-ul" hidden>
 			<li>
 				<a>Option 1</a>
@@ -40,7 +41,7 @@ nav_order: 3
 
 {% endhighlight %}
 {% highlight js %}
-const menuButton = document.querySelector('menu-btn-example');
+const menuButton = document.getElementById('menu-btn-example');
 
 menuButton.addEventListener('click', function(){
 	let expanded = this.getAttribute('aria-expanded') === 'true';
