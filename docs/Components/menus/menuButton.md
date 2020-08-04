@@ -11,8 +11,7 @@ nav_order: 3
 
 <div class="code-example">
 <nav>
-	<button id="menu-btn-example"  aria-expanded="false">
-		Press me!
+	<button id="menu-btn-example"  aria-expanded="false">Press me!</button>
 		<ul class="menu-btn-example-ul" hidden>
 			<li>
 				<a>Option 1</a>
@@ -24,7 +23,7 @@ nav_order: 3
 				<a>Option 3</a>
 			</li>
 		</ul>
-	</button>
+	
 </nav>
 </div>
 {% highlight html %}
