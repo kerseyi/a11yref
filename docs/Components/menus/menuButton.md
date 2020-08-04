@@ -11,33 +11,31 @@ nav_order: 3
 
 <div class="code-example">
 <nav>
-	<button id="menu-btn-example"  aria-expanded="false">Press me!</button>
-		<ul class="menu-btn-example-ul" hidden>
+	<button id="menu-btn-example"  aria-expanded="false" aria-haspopup="true">Press me!</button>
+		<ul role="menu" class="menu-btn-example-ul" hidden>
 			<li>
-				<a>Option 1</a>
-			</li>
-			<li>
-				<a>Option 2</a>
-			</li>
-			<li>
-				<a>Option 3</a>
-			</li>
-		</ul>
-	
+			<a href="#" role="menuitem">Option 1</a>
+		</li>
+		<li>
+			<a href="#" role="menuitem">Option 2</a>
+		</li>
+		<li>
+			<a href="#" role="menuitem">Option 3</a>
+		</li>
 </nav>
 </div>
 {% highlight html %}
 <nav>
-	<button id="menu-btn-example"  aria-expanded="false">Press me!</button>
-	<ul class="menu-btn-example-ul" hidden>
+	<button id="menu-btn-example"  aria-expanded="false" aria-haspopup="true">Press me!</button>
+	<ul class="menu-btn-example-ul" role="menu" hidden>
 		<li>
-			<a>Option 1</a>
+			<a href="#" role="menuitem">Option 1</a>
 		</li>
 		<li>
-			<a>Option 2</a>
+			<a href="#" role="menuitem">Option 2</a>
 		</li>
 		<li>
-			<a>Option 3</a>
+			<a href="#" role="menuitem">Option 3</a>
 		</li>
 	</ul>
 </nav>
