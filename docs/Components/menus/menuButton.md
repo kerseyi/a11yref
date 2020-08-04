@@ -23,6 +23,7 @@ Here is an example of the menu button being activated on the click event.
 		<li>
 			<a href="#" role="menuitem">Option 3</a>
 		</li>
+	</ul>
 </nav>
 
 {% highlight html %}
