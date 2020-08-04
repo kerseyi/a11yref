@@ -12,7 +12,6 @@ accordion:
 ---
 
 # Accordion Menus
-<img src="{{site.baseurl}}/assets/images/accordion.jpg" style="width: 50%;" alt="black and white photo of an old man with a white beard holding an accordion"/><br>
 Accordion menus are everywhere we look on the web. With such ubiquity, you'd expect that there would be a pretty well defined standard for constructing these components. Well, there's not. So when it comes to making accordion menus accessible, things can get tricky. While the functionality and HTML markup for accordions is pretty straightforward, some implementations are overly complex. Let's take a look at the intended functionality of an accordion menu before we look under the hood.
 
 ## Use Case: Why an accordion?
