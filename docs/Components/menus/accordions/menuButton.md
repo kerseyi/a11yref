@@ -26,6 +26,22 @@ nav_order: 3
 	</button>
 </div>
 {% highlight html %}
+<div class="code-example">
+	<button id="menu-btn-example"  aria-expanded="false">
+		Press me!
+		<ul class="menu-btn-example-ul" hidden>
+			<li>
+				<a>Option 1</a>
+			</li>
+			<li>
+				<a>Option 2</a>
+			</li>
+			<li>
+				<a>Option 3</a>
+			</li>
+		</ul>
+	</button>
+</div>
 {% endhighlight %}
 
 {% highlight css %}
@@ -47,7 +63,7 @@ menuButton.addEventListener('click', function(){
 	let expanded = this.getAttribute('aria-expanded') === 'true';
 	this.setAttribute('aria-expanded', !expanded);
 	let exampleMenu = this.nextElementSibling;
-	exampleMenu.hidden = !menu.hidden;
+	exampleMenu.hidden = !exampleMenu.hidden;
 })
 
 {% endhighlight %}

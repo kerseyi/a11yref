@@ -139,7 +139,7 @@ menuButton.addEventListener('click', function(){
   let expanded = this.getAttribute('aria-expanded') === 'true';
   this.setAttribute('aria-expanded', !expanded);
   let exampleMenu = this.nextElementSibling;
-  exampleMenu.hidden = !menu.hidden;
+  exampleMenu.hidden = !exampleMenu.hidden;
 })
 
 })
