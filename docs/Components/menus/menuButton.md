@@ -28,7 +28,9 @@ Here is an example of the menu button being activated on the click event.
 	</ul>
 </nav>
 
-## Code Patterns
+## Code Pattern
+
+### HTML
 
 {% highlight html %}
 <nav>
@@ -48,6 +50,7 @@ Here is an example of the menu button being activated on the click event.
 	
 {% endhighlight %}
 
+### JavaScript
 {% highlight js %}
 const menuButton = document.getElementById('menu-btn-example');
 
