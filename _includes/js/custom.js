@@ -133,7 +133,7 @@ Array.prototype.slice.call(document.querySelectorAll('.Accordion')).forEach(func
 
 });
 
-const menuButton = document.getElementById('menu-btn-example');
+const menuButton = document.getElementById('menu-btn-example1');
 
 menuButton.addEventListener('click', function(){
   let expanded = this.getAttribute('aria-expanded') === 'true';

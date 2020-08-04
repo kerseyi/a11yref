@@ -12,7 +12,7 @@ nav_order: 3
 Here is an example of the menu button being activated on the click event.
 <div class="code-example">
 <nav>
-	<button id="menu-btn-example"  aria-expanded="false" aria-haspopup="true">Press me!</button>
+	<button id="menu-btn-example1" aria-expanded="false" aria-haspopup="true">Press me!</button>
 		<ul role="menu" class="menu-btn-example-ul" hidden>
 			<li>
 			<a href="#" role="menuitem">Option 1</a>
