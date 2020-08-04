@@ -10,8 +10,8 @@ nav_order: 3
 # Menu Buttons
 
 <div class="code-example">
-	<button class="menu-btn-example">
-		<ul class="menu-btn-example-ul" aria-expanded="false">
+	<button class="menu-btn-example"  aria-expanded="false">
+		<ul class="menu-btn-example-ul" hidden>
 			<li>
 				<a>Option 1</a>
 			</li>
