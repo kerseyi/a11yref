@@ -25,4 +25,5 @@ A repository of accessible component code patterns, references, and educational 
 	-	[Carousels](https://www.w3.org/WAI/tutorials/carousels/)
 - 	[WCAG-EM Report Tool](https://www.w3.org/WAI/eval/report-tool/#!/)
 - 	[Accessiblity Support (a11y CanIuse)](https://a11ysupport.io/)
+- 	[Hidden Content](https://kb.iu.edu/d/arwj)
 	
